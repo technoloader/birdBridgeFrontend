@@ -1,0 +1,83 @@
+.banner_box{ background:#fff; padding:50px;}
+.banner_box h5, .banner_box h6, .banner_box h3{ font-weight:400; font-family: "Gilroy-Medium";}
+.banner_box h3{    font-size: 24px;}
+.input_amount{
+   font-size: 20px;
+    background: none;
+    color: #000;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-bottom: 1px dashed #ff8282;
+    padding-bottom: 10px;font-family: "Gilroy-Regular";	
+}
+.swap_part{
+    padding: 3.5rem 0 5rem 0;
+    z-index: 1500;
+}
+.input_amount::-webkit-outer-spin-button,
+.input_amount::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.input_amount[type=number] {
+  -moz-appearance: textfield;
+}
+.input_amount::placeholder { 
+  color: #f7b0b0;
+  opacity: 1;     font-size: 18px;
+}
+
+.input_amount:-ms-input-placeholder { 
+  color: #f7b0b0;    font-size: 18px;
+}
+
+.input_amount::-ms-input-placeholder { 
+  color: #f7b0b0;    font-size: 18px;
+}
+
+.transfer_btn{
+    background: transparent;
+    color: #fe0000;
+    border: 2px solid #fe0000;
+    overflow: hidden; 
+	padding:10px 50px;
+	font-weight: 400;
+    text-transform: uppercase; margin-top:50px;
+}
+.transfer_btn:hover{
+    background: #fe0000;
+    color: #fff;
+  
+}
+
+.exchange_icon{    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.haddingeth{   
+    font-family: "Gilroy-Medium";
+    font-size: 26px;}
+.tc{ text-align:center;}
+.tr{ text-align:right;}
+.b_header{      border-bottom: 1px dashed #ff8282;
+    padding-bottom: 10px;
+    margin-bottom: 20px;}
+
+.banner_box2 {
+    padding: 50px 30px;
+}
+.banner_box .col-sm-62 {
+    padding-left: 30px;
+}
+.banner_box h6 {
+    margin: 18px 0;
+    font-size: 18px;
+        color: #fe0000;
+}
+.banner_box .col-md-3 h4 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
